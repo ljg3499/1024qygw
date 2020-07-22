@@ -2,24 +2,6 @@
 
 ## Project setup
 ```
-npm install
+http://www.1024group.com/
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# 1024qygw
+# 1024企业官网
