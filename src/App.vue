@@ -1,13 +1,27 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return{
 
+    }
+  },
+  watch: {
+    // $route: function(to, from) {
+    //   alert(1)
+    //   if (to.name.indexOf("_p") > 0 && !this.$pc) {
+    //     this.$router.replace(to.name.split("_p")[0]);
+    //   } else if (to.name.indexOf("_p") < 0 && this.$pc) {
+    //     this.$router.replace(to.name + "_p");
+    //   }
+    // }
+  }
+};
+</script>
 <style lang="less">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

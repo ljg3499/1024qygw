@@ -1,27 +1,62 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import New from '../views/new.vue'
+import Home from '../views/home.vue'
+import Business from '../views/business.vue'
+import Join from '../views/join.vue'
+import About from '../views/about.vue'
+import NewDetail from '../views/newDetail.vue'
+
 
 Vue.use(VueRouter)
 
 const routes = [
   {
+    path: '/new',
+    name: 'new',
+
+    // which is lazy-loaded when the route is visited.
+    component: New
+  },
+  {
     path: '/',
-    name: 'Home',
+    name: 'home',
+
+    // which is lazy-loaded when the route is visited.
     component: Home
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
+    path: '/business',
+    name: 'business',
+
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
+    component:Business
+  },
+  {
+    path: '/join',
+    name: 'join',
+
+    // which is lazy-loaded when the route is visited.
+    component: Join
+  },
+  {
+    path: '/about',
+    name: 'about',
+
+    // which is lazy-loaded when the route is visited.
+    component: About
+  },
+  {
+    path: '/newDetail/:id',
+    name: 'newDetail',
+
+    // which is lazy-loaded when the route is visited.
+    component:NewDetail
+  },
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: "history",
   base: process.env.BASE_URL,
   routes
 })

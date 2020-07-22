@@ -1,0 +1,217 @@
+.banner {
+  height: 430px;
+  background: url(~@/assets/移动/WechatIMG548.png) center center no-repeat;
+  background-size: auto 100%;
+  position: relative;
+}
+
+.banner1 {
+  height: 430px;
+  background: url(~@/assets/homeTop.png) center center no-repeat;
+  background-size: auto 100%;
+  position: relative;
+}
+
+.banner2 {
+  height: 430px;
+  background: url(~@/assets/m-img/gywm.png) center center no-repeat;
+  background-size: auto 100%;
+  position: relative;
+}
+
+.banner3 {
+  height: 430px;
+  background: url(~@/assets/移动/yw.png) center center no-repeat;
+  background-size: auto 100%;
+  position: relative;
+}
+
+.banner4 {
+  height: 430px;
+  background: url(~@/assets/移动/jr.png) center center no-repeat;
+  background-size: auto 100%;
+  position: relative;
+}
+
+.banner5 {
+  height: 430px;
+  background: url(~@/assets/m-img/xw.png) center center no-repeat;
+  background-size: auto 100%;
+  position: relative;
+}
+
+.banner .logo {
+  position: absolute;
+  width: 172px;
+  height: 41px;
+  background: url(~@/assets/logo.png) center center no-repeat;
+  background-size: auto 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+}
+
+.banner1 .logo {
+  position: absolute;
+  width: 172px;
+  height: 41px;
+  background: url(~@/assets/logo.png) center center no-repeat;
+  background-size: auto 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+}
+
+.banner2 .logo {
+  position: absolute;
+  width: 172px;
+  height: 41px;
+  background: url(~@/assets/logo.png) center center no-repeat;
+  background-size: auto 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+}
+
+.banner3 .logo {
+  position: absolute;
+  width: 172px;
+  height: 41px;
+  background: url(~@/assets/logo.png) center center no-repeat;
+  background-size: auto 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+}
+
+.banner4 .logo {
+  position: absolute;
+  width: 172px;
+  height: 41px;
+  background: url(~@/assets/logo.png) center center no-repeat;
+  background-size: auto 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+}
+
+.banner5 .logo {
+  position: absolute;
+  width: 172px;
+  height: 41px;
+  background: url(~@/assets/logo.png) center center no-repeat;
+  background-size: auto 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+}
+
+
+.meun {
+  width: 70px;
+  height: 70px;
+  background: url("~@/assets/meun.png") no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 60px;
+  top: 20px;
+}
+
+.meun_content {
+  position: absolute;
+  right: 30px;
+  top: 100px;
+  width: 130px;
+  height: 230px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  font-size: 30px;
+  line-height: 57px;
+  color: #fff;
+}
+
+.meun_content>div {
+  border-bottom: 1px solid gray;
+}
+
+.banner>p:nth-child(1) {
+  padding-top: 100px;
+  font-size: 60px;
+  font-family: PangMenZhengDao;
+  font-weight: 400;
+  line-height: 140px;
+  color: #ffffff;
+}
+
+.banner>p:nth-child(2) {
+  font-size: 16px;
+  font-family: PingFang SC;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.p_banner {
+  width: 100%;
+  height: 600px;
+  background: url(~@/assets/pc/sy.png) no-repeat;
+  padding: 20px 0;
+}
+
+.p_banner>.p_top {
+  display: flex;
+}
+
+.p_banner>.p_top .p_left {
+  width: 31%;
+  text-align: right;
+}
+
+.p_banner>.p_top .p_left img {
+  width: 172px;
+  height: 41px;
+}
+
+.p_banner>.p_top .p_right {
+  flex: 1;
+  display: flex;
+  margin-left: 20%;
+}
+
+.p_banner>.p_top .p_right>div {
+  width: 88px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 20px;
+  font-size: 18px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.p_banner .p_text1 {
+  padding-top: 100px;
+  font-size: 40px;
+  font-family: PangMenZhengDao;
+  font-weight: 400;
+  line-height: 100px;
+  color: #ffffff;
+}
+
+.p_banner .p_text2 {
+  font-size: 16px;
+  font-family: PingFang SC;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.p_banner .activeClass {
+  border: .5px solid #ffffff;
+  border-radius: 4px;
+}
+
+#tab {
+  display: flex;
+  justify-content: center;
+}
